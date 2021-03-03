@@ -1,7 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 ul{
     list-style-type: none;
 }
 
 a{
     text-decoration: none;
+}
+
+.carousel-item {
+    img{
+        object-fit: cover;
+    }
+}
+
+#contact
+{
+    .col-md-11{
+        padding: 0 !important;
+        margin: 0 !important;
+    }
 }

@@ -59,22 +59,25 @@
                 <div class="col-md-6">
                     <h3>Message Us</h3>
                     <form>
-                        <div class="row">
-                            <div class="col-md-6 mb-3">
-                                <input type="text" class="form-control" placeholder="Name">
-                            </div>
-                            <div class="col-md-6 mb-3">
-                                <input type="text" class="form-control" placeholder="Phone">
-                            </div>
-                            <div class="col-md-6 mb-3">
-                                <input type="text" class="form-control" placeholder="Email">
-                            </div>
-                            <div class="col-md-6 mb-3">
-                                <input type="text" class="form-control" placeholder="Subject">
-                            </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Full Name</label>
+                            <input type="email" class="form-control" id="FullName" aria-describedby="emailHelp"
+                                placeholder="Enter Full Name">
                         </div>
-                        <textarea id="my-textarea" class="form-control mb-3" name="" rows="5"
-                            placeholder="Message"></textarea>
+                        <div class="form-group">
+                            <label for="Email">Email address</label>
+                            <input type="email" class="form-control" id="Email" aria-describedby="Email"
+                                placeholder="Enter email">
+                        </div>
+                        <div class="form-group">
+                            <label for="Phone">Phone</label>
+                            <input type="text" class="form-control" id="Phone" aria-describedby="Phone"
+                                placeholder="Enter Phone Number">
+                        </div>
+                        <div class="form-group">
+                            <label for="Message">Message</label>
+                            <textarea class="form-control" id="Message" rows="5" placeholder="Enter Message"></textarea>
+                        </div>
                     </form>
                 </div>
                 <div class="col-md-6">
@@ -117,29 +120,43 @@
             <div class="row">
                 <div class="col-md-4 col-sm-12">
                     <h4>About Us</h4>
-                    <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitu din, lorem quistix bibendum
-                        auctoris</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididun</p>
                     <p>Address: 123 Main Street, Anytown, CA 12345 - USA.</p>
                     <p>Telephone: (012) 800 456 789-987</p>
                     <p>Email: yourmail@example.com</p>
                 </div>
-                <div class="col-md-4 col-sm-12">
-                    <h4>Working Hours</h4>
+                <div class="col-md-2 col-sm-12">
+                    <h4>Information</h4>
                     <ul>
-                        <li>Monday : 10AM – 9PM</li>
-                        <li>Tuesday : 10AM – 9PM</li>
-                        <li>Wednesday : 10AM – 9PM</li>
-                        <li>Thursday : 10AM – 9PM</li>
-                        <li>Friday : 10AM – 9PM</li>
-                        <li>Saturday : 10AM – 5PM</li>
-                        <li>Sunday : Cloesed</li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Delivery Information</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms Condition</a></li>
+                        <li><a href="#">Customer Service</a></li>
+                        <li><a href="#">Return Policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2 col-sm-12">
+                    <h4>Information</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Delivery Information</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms Condition</a></li>
+                        <li><a href="#">Customer Service</a></li>
+                        <li><a href="#">Return Policy</a></li>
                     </ul>
                 </div>
                 <div class="col-md-4 col-sm-12">
                     <h4>Join Our Newsletter Now</h4>
                     <p>Get E-mail updates about our latest shop and special offers.</p>
-                    <input type="text" class="form-control" placeholder="Your Email Address...">
-                    <button type="button" class="btn btn-danger">Subscribe</button>
+                    <div class="input-group mb-3">
+                        <input type="email" class="form-control" placeholder="Enter your email..." aria-label="Email"
+                            aria-describedby="Email">
+                        <div class="input-group-append">
+                            <button class="btn btn-danger" type="button">Submit</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
